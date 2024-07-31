@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+
+}
+.hex-color-container{
+    display: flex;
+    gap: 20px;
+}
+.hex-color, .rgb-color{
+min-height: 100vh;
+flex: 1;
+
+}
+.hex-color{
+    background-color:blue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding: 2.2rem;
+}
+.rgb-color{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 2.2rem;
+}
+.hexBtn ,.rgdBtn{
+    padding: 10px 20px ;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+}
+.hex-color-copy,.rgb-color-copy{
+    padding: 10px 20px ;
+    background-color: #fe9035;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+}
+.hex-color-value,.rgb-value{
+    font-size: 2.2rem;
+    font-family: bold;
+    color: white;
+}
